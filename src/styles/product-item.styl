@@ -1,0 +1,120 @@
+.item-description-wrapper
+  width 80%
+  height auto
+  margin 0 auto
+
+.similar-products
+  width 80%
+  margin 0 auto
+  display flex
+
+.title-similar-products
+  width 85%
+  margin 0 auto
+  height auto
+  padding 3vw 0
+  color #001c88
+  font-weight 100
+  font-size: 20px
+
+.swiper-slide.similar-product-item
+  width: 33%
+
+.item-description-wrapper
+  width: 80%;
+  height: auto;
+  padding-top 5vw
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content center
+  align-items center
+
+.title-item
+  color: blue;
+  font-size: 24px;
+  font-weight: 100;
+
+.description-item
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 22px;
+  margin 3vw 0
+.description-item-wrapper
+  width 60%
+
+.slider-item
+  width 30%
+
+.table-descripcion-wrapper
+  width: 70%;
+  margin: 0 auto;
+
+.title-table
+  color: blue;
+  font-weight: 100;
+  font-size: 20px;
+  cursor: pointer;
+  -webkit-user-select: none;  /* Chrome all / Safari all */
+  -moz-user-select: none;     /* Firefox all */
+  -ms-user-select: none;      /* IE 10+ */
+  user-select: none;
+
+.table-wrapper
+  opacity: 0
+  height: 0
+  border: 1px solid black;
+
+.show-table
+  opacity 1
+  height auto
+
+.hidden-table
+  opacity 0
+  height 0
+
+.row-table
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding .4vw .5vw
+
+@media(max-width 1024px)
+  .item-description-wrapper
+    width 90%
+
+  .table-descripcion-wrapper
+    width 80%
+
+@media(max-width 1000px)
+  .similar-products
+    width 95%
+
+@media(max-width 768px)
+
+  .item-description-wrapper
+    flex-direction column
+
+  .table-descripcion-wrapper
+    padding 8vw 0
+
+  .description-item-wrapper,.slider-item
+    width 100%
+
+  .table-descripcion-wrapper
+    width 90%
+
+  .title-table
+    text-align center
+    -webkit-tap-highlight-color: rgba(0,0,0,0);
+@media(max-width 640px)
+
+  .title-similar-products
+    text-align: center;
+
+  .similar-products
+    flex-direction: column;
+    align-items: center;
+
+  .swiper-slide.similar-product-item
+    width: 50%
