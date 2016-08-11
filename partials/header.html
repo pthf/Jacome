@@ -113,24 +113,67 @@
 
   <div class="search-bar">
     <form action="">
-      <input type="search"class="header-search" name="search" placeholder="Buscar...">
-      <!-- <input type="submit"> -->
+      <input type="search"class="header-search" name="search" placeholder="Buscar..." autocomplete="off">
     </form>
+
+    <div class="results-wrapper">
+      <a href="#/productos/product-item" class="result">
+        <div class="img-search">
+          <img src="img/product-05-01.png">
+        </div>
+          <div class="title-search">EL NOMBRE DEL PRODUCTO ENCONTRADO</div>
+      </a>
+
+      <a href="#/productos/product-item" class="result">
+        <div class="img-search">
+          <img src="img/product-05-01.png">
+        </div>
+          <div class="title-search">EL NOMBRE DEL PRODUCTO ENCONTRADO</div>
+      </a>
+
+      <a href="#/productos/product-item" class="result">
+        <div class="img-search">
+          <img src="img/product-05-01.png">
+        </div>
+          <div class="title-search">EL NOMBRE DEL PRODUCTO ENCONTRADO</div>
+      </a>
+
+      <a href="#/productos/product-item" class="result">
+        <div class="img-search">
+          <img src="img/product-05-01.png">
+        </div>
+          <div class="title-search">EL NOMBRE DEL PRODUCTO ENCONTRADO</div>
+      </a>
+
+      <a href="#/productos/product-item" class="result">
+        <div class="img-search">
+          <img src="img/product-05-01.png">
+        </div>
+          <div class="title-search">EL NOMBRE DEL PRODUCTO ENCONTRADO</div>
+      </a>
+
+      <a href="#/productos/product-item" class="result">
+        <div class="img-search">
+          <img src="img/product-05-01.png">
+        </div>
+          <div class="title-search">EL NOMBRE DEL PRODUCTO ENCONTRADO</div>
+      </a>
+    </div>
   </div>
 
-  <div class="menu-options-desktop" ng-controller="itemSelectedController">
+  <div class="menu-options-desktop" >
     <ul class="menu-list">
-      <li class="option-item" ng-click="changerute(1)">
-        <a ng-class="{'selected': itemselected === 1 }" href="/#/productos">Productos</a>
+      <li class="option-item">
+        <a href="/#/productos" >Productos</a>
       </li>
-      <li class="option-item" ng-click="changerute(2)">
-        <a ng-class="{'selected': itemselected === 2 }"  href="/#/equipos">Equipos</a>
+      <li class="option-item">
+        <a href="/#/equipos">Equipos</a>
       </li>
-      <li class="option-item" ng-click="changerute(3)">
-        <a ng-class="{'selected': itemselected === 3 }"  href="/#/contacto">Contacto</a>
+      <li class="option-item">
+        <a href="/#/contacto" >Contacto</a>
       </li>
-      <li class="option-item" ng-click="changerute(4)">
-        <a ng-class="{'selected': itemselected === 4 }"  href="/#/cotizador">Cotizador</a>
+      <li class="option-item">
+        <a href="/#/cotizador">Cotizador</a>
       </li>
     </ul>
   </div>

@@ -115,3 +115,8 @@
     <section class="map">
       <ng-map center="[40.74, -74.18]" class="map" scrollwheel="false" draggable="false"></ng-map>
     </section>
+
+  <script type="text/javascript">
+  //Valida numeros solamente en input de telefono
+  function validate(e){var t=e||window.event,r=t.keyCode||t.which;r=String.fromCharCode(r);var a=/[0-9]|\./;a.test(r)||(t.returnValue=!1,t.preventDefault&&t.preventDefault())}
+  </script>

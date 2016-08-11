@@ -32,9 +32,9 @@
           <option value="audi">Audi</option>
         </select>
 
-        <input type="tel" pattern="[0-9]*" inputmode="numeric" name="phone" placeholder="Medidas:"  onkeypress='validate(event)'>
+        <input type="text" name="medidas" placeholder="Medidas:" >
 
-        <input type="tel" pattern="[0-9]*" inputmode="numeric" name="phone" placeholder="Cantidad:"  onkeypress='validate(event)'>
+        <input type="text" name="phone" placeholder="Cantidad:">
 
 
         <select class="cotiza-select" placeholder="Acabado">
@@ -76,13 +76,14 @@
     border-radius: 0;
   }
   select.cotiza-select {
-    width: 48%;
+    width: 47.7%;
     border-radius: 0 !important;
     -webkit-appearance: none;
     -webkit-border-radius: 0px;
   }
   textarea{
     width: 94.5%;
+    margin: 1.5vw 0
   }
   input[type=submit]{
     margin: 2vw 0;
@@ -98,7 +99,7 @@
       padding: 0.6vw 0.5vw;
     }
     select.cotiza-select{
-      width: 97.5%;
+      width: 96.8%;
       margin: none;
       padding: 0.6vw 0.5vw;
     }
@@ -112,3 +113,8 @@
     }
   }
 </style>
+
+<script type="text/javascript">
+//Valida numeros solamente en input de telefono
+function validate(e){var t=e||window.event,r=t.keyCode||t.which;r=String.fromCharCode(r);var a=/[0-9]|\./;a.test(r)||(t.returnValue=!1,t.preventDefault&&t.preventDefault())}
+</script>
