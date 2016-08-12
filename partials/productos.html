@@ -10,58 +10,157 @@
   <div class="categories-list-wrapper" ng-controller="itemSelectedCheckController">
     <ul class="categories-list">
 
-      <li class="category-item" onclick="location.href='#/productos/impresas';" >
-        <div class="category-name">
-          <span class="category-name-title">Impresas</span>
-           <span class="icon-category" ng-class="{'upside-icon':itemSelected==='impresas', 'downside-icon':itemSelected!='impresas'}"></span>
-        </div>
+      <li class="category-item" >
+        <a href="#/productos/impresas" class="category-name">
+          <div class="">
+            <span class="category-name-title">Impresas</span><span>&nbsp;&nbsp;</span>
+             <span class="icon-category" ng-class="{'upside-icon':itemSelected==='impresas', 'downside-icon':itemSelected!='impresas'}"></span>
+          </div>
+        </a>
+
         <ul class="sub-list">
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='impresas', 'hide-category':itemSelected!='impresas'}" onclick="location.href='/productos/impresas/subcategoria1';">sub categoría 1</li>
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='impresas', 'hide-category':itemSelected!='impresas'}" onclick="location.href='#/productos/impresas/subcategoria2';">sub categoría 2</li>
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='impresas', 'hide-category':itemSelected!='impresas'}" onclick="location.href='#/productos/impresas/subcategoria3';">sub categoría 3</li>
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='impresas', 'hide-category':itemSelected!='impresas'}" onclick="location.href='#/productos/impresas/subcategoria4';">sub categoría 4</li>
+          <a href="#/productos/impresas/subcategoria1">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='impresas', 'hide-category':itemSelected!='impresas'}">
+              sub categoría 1
+            </li>
+          </a>
+
+          <a href="#/productos/impresas/subcategoria2">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='impresas', 'hide-category':itemSelected!='impresas'}">
+              sub categoría 2
+            </li>
+          </a>
+
+          <a href="#/productos/impresas/subcategoria3">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='impresas', 'hide-category':itemSelected!='impresas'}">
+              sub categoría 3
+            </li>
+          </a>
+
+          <a href="#/productos/impresas/subcategoria4">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='impresas', 'hide-category':itemSelected!='impresas'}">
+              sub categoría 4
+            </li>
+          </a>
+
+
+
         </ul>
       </li>
 
-      <li class="category-item" onclick="location.href='#/productos/senaletica';">
-        <div class="category-name">
-          <span class="category-name-title">Señaletica</span>
-          <span class="icon-category" ng-class="{'upside-icon':itemSelected==='senaletica', 'downside-icon':itemSelected!='senaletica'}"></span>
-        </div>
+      <li class="category-item" >
+        <a href="#/productos/senaletica" class="category-name">
+          <div class="">
+            <span class="category-name-title">Senaletica</span><span>&nbsp;&nbsp;</span>
+             <span class="icon-category" ng-class="{'upside-icon':itemSelected==='senaletica', 'downside-icon':itemSelected!='senaletica'}"></span>
+          </div>
+        </a>
+
         <ul class="sub-list">
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='senaletica', 'hide-category':itemSelected!='senaletica'}" onclick="location.href='#/productos/impresas/subcategoria1';">sub categoría 1</li>
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='senaletica', 'hide-category':itemSelected!='senaletica'}" onclick="location.href='#/productos/impresas/subcategoria2';">sub categoría 2</li>
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='senaletica', 'hide-category':itemSelected!='senaletica'}" onclick="location.href='#/productos/impresas/subcategoria3';">sub categoría 3</li>
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='senaletica', 'hide-category':itemSelected!='senaletica'}" onclick="location.href='#/productos/impresas/subcategoria4';">sub categoría 4</li>
+          <a href="#/productos/senaletica/subcategoria1">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='senaletica', 'hide-category':itemSelected!='senaletica'}">
+              sub categoría 1
+            </li>
+          </a>
+
+          <a href="#/productos/senaletica/subcategoria2">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='senaletica', 'hide-category':itemSelected!='senaletica'}">
+              sub categoría 2
+            </li>
+          </a>
+
+          <a href="#/productos/senaletica/subcategoria3">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='senaletica', 'hide-category':itemSelected!='senaletica'}">
+              sub categoría 3
+            </li>
+          </a>
+
+          <a href="#/productos/senaletica/subcategoria4">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='senaletica', 'hide-category':itemSelected!='senaletica'}">
+              sub categoría 4
+            </li>
+          </a>
+
+
+
         </ul>
       </li>
 
-      <li class="category-item" onclick="location.href='#/productos/cintas';">
-        <div class="category-name">
-          <span class="category-name-title">Cintas</span>
-          <span class="icon-category" ng-class="{'upside-icon':itemSelected==='cintas', 'downside-icon':itemSelected!='cintas'}"></span>
-        </div>
+      <li class="category-item" >
+        <a href="#/productos/cintas" class="category-name">
+          <div class="">
+            <span class="category-name-title">Cintas</span><span>&nbsp;&nbsp;</span>
+             <span class="icon-category" ng-class="{'upside-icon':itemSelected==='cintas', 'downside-icon':itemSelected!='cintas'}"></span>
+          </div>
+        </a>
+
         <ul class="sub-list">
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='cintas', 'hide-category':itemSelected!='cintas'}" onclick="location.href='#/productos/categoria1';">sub categoría 1</li>
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='cintas', 'hide-category':itemSelected!='cintas'}" onclick="location.href='#/productos/categoria2';">sub categoría 2</li>
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='cintas', 'hide-category':itemSelected!='cintas'}" onclick="location.href='#/productos/categoria3';">sub categoría 3</li>
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='cintas', 'hide-category':itemSelected!='cintas'}" onclick="location.href='#/productos/categoria4';">sub categoría 4</li>
+          <a href="#/productos/cintas/subcategoria1">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='cintas', 'hide-category':itemSelected!='cintas'}">
+              sub categoría 1
+            </li>
+          </a>
+
+          <a href="#/productos/cintas/subcategoria2">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='cintas', 'hide-category':itemSelected!='cintas'}">
+              sub categoría 2
+            </li>
+          </a>
+
+          <a href="#/productos/cintas/subcategoria3">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='cintas', 'hide-category':itemSelected!='cintas'}">
+              sub categoría 3
+            </li>
+          </a>
+
+          <a href="#/productos/cintas/subcategoria4">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='cintas', 'hide-category':itemSelected!='cintas'}">
+              sub categoría 4
+            </li>
+          </a>
+
+
+
         </ul>
       </li>
 
-      <li class="category-item" onclick="location.href='#/productos/especiales';">
-        <div class="category-name">
-          <span class="category-name-title">Especiales</span>
-          <span class="icon-category" ng-class="{'upside-icon':itemSelected==='especiales', 'downside-icon':itemSelected!='especiales'}"></span>
-        </div>
+      <li class="category-item" >
+        <a href="#/productos/especiales" class="category-name">
+          <div class="">
+            <span class="category-name-title">Especiales</span><span>&nbsp;&nbsp;</span>
+             <span class="icon-category" ng-class="{'upside-icon':itemSelected==='especiales', 'downside-icon':itemSelected!='especiales'}"></span>
+          </div>
+        </a>
+
         <ul class="sub-list">
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='especiales', 'hide-category':itemSelected!='especiales'}" onclick="location.href='#/productos/categoria1';">sub categoría 1</li>
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='especiales', 'hide-category':itemSelected!='especiales'}" onclick="location.href='#/productos/categoria2';">sub categoría 2</li>
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='especiales', 'hide-category':itemSelected!='especiales'}" onclick="location.href='#/productos/categoria3';">sub categoría 3</li>
-          <li class="sub-item" ng-class="{'show-category':itemSelected==='especiales', 'hide-category':itemSelected!='especiales'}" onclick="location.href='#/productos/categoria4';">sub categoría 4</li>
+          <a href="#/productos/especiales/subcategoria1">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='especiales', 'hide-category':itemSelected!='especiales'}">
+              sub categoría 1
+            </li>
+          </a>
+
+          <a href="#/productos/especiales/subcategoria2">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='especiales', 'hide-category':itemSelected!='especiales'}">
+              sub categoría 2
+            </li>
+          </a>
+
+          <a href="#/productos/especiales/subcategoria3">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='especiales', 'hide-category':itemSelected!='especiales'}">
+              sub categoría 3
+            </li>
+          </a>
+
+          <a href="#/productos/especiales/subcategoria4">
+            <li class="sub-item" ng-class="{'show-category':itemSelected==='especiales', 'hide-category':itemSelected!='especiales'}">
+              sub categoría 4
+            </li>
+          </a>
+
+
+
         </ul>
       </li>
-
 
     </ul>
   </div>
@@ -70,82 +169,124 @@
     <div class="swiper-container">
         <div class="swiper-wrapper">
 
-          <div class="swiper-slide" onclick="location.href='#/product-item'">
+          <div class="swiper-slide">
             <img src="img/product-01-01.png">
             <span class="slider-name">el nombre de un producto</span>
-            <div class="filter"></div>
+            <a href="/#/product-item">
+              <div class="filter"></div>
+            </a>
           </div>
 
-          <div class="swiper-slide" onclick="location.href='#/product-item'">
-            <a href="#/productItem">
-              <img src="img/product-02-01.png">
-            </a>
+          <div class="swiper-slide">
+            <img src="img/product-02-01.png">
             <span class="slider-name">el nombre de un producto</span>
-            <div class="filter"></div>
+            <a href="/#/product-item">
+              <div class="filter"></div>
+            </a>
           </div>
 
-          <div class="swiper-slide" onclick="location.href='#/product-item'">
-            <a href="#/productItem">
-              <img src="img/product-03-01.png">
-            </a>
+          <div class="swiper-slide">
+            <img src="img/product-03-01.png">
             <span class="slider-name">el nombre de un producto</span>
-            <div class="filter"></div>
+            <a href="/#/product-item">
+              <div class="filter"></div>
+            </a>
           </div>
 
-          <div class="swiper-slide" onclick="location.href='#/product-item'">
-            <a href="#/productItem">
-              <img src="img/product-04-01.png">
-            </a>
+          <div class="swiper-slide">
+            <img src="img/product-04-01.png">
             <span class="slider-name">el nombre de un producto</span>
-            <div class="filter"></div>
+            <a href="/#/product-item">
+              <div class="filter"></div>
+            </a>
           </div>
 
-          <div class="swiper-slide" onclick="location.href='#/product-item'">
-            <a href="#/productItem">
-              <img src="img/product-05-01.png">
-            </a>
+          <div class="swiper-slide">
+            <img src="img/product-05-01.png">
             <span class="slider-name">el nombre de un producto</span>
-            <div class="filter"></div>
+            <a href="/#/product-item">
+              <div class="filter"></div>
+            </a>
           </div>
 
-          <div class="swiper-slide" onclick="location.href='#/product-item'">
-            <a href="#/productItem">
-              <img src="img/product-01-01.png">
-            </a>
+          <div class="swiper-slide">
+            <img src="img/product-01-01.png">
             <span class="slider-name">el nombre de un producto</span>
-            <div class="filter"></div>
+            <a href="/#/product-item">
+              <div class="filter"></div>
+            </a>
           </div>
 
-          <div class="swiper-slide" onclick="location.href='#/product-item'">
-            <a href="#/productItem">
-              <img src="img/product-02-01.png">
-            </a>
+          <div class="swiper-slide">
+            <img src="img/product-02-01.png">
             <span class="slider-name">el nombre de un producto</span>
-            <div class="filter"></div>
+            <a href="/#/product-item">
+              <div class="filter"></div>
+            </a>
           </div>
 
-          <div class="swiper-slide" onclick="location.href='#/product-item'">
-            <a href="#/productItem">
-              <img src="img/product-03-01.png">
-            </a>
+          <div class="swiper-slide">
+            <img src="img/product-03-01.png">
             <span class="slider-name">el nombre de un producto</span>
-            <div class="filter"></div>
+            <a href="/#/product-item">
+              <div class="filter"></div>
+            </a>
           </div>
 
-          <div class="swiper-slide" onclick="location.href='#/product-item'">
-            <a href="#/productItem">
-              <img src="img/product-04-01.png">
-            </a>
+          <div class="swiper-slide">
+            <img src="img/product-04-01.png">
             <span class="slider-name">el nombre de un producto</span>
-            <div class="filter"></div>
+            <a href="/#/product-item">
+              <div class="filter"></div>
+            </a>
           </div>
 
-          <div class="swiper-slide" onclick="location.href='#/product-item'">
-            <a href="#/productItem">
-              <img src="img/product-05-01.png">
-            </a>
+          <div class="swiper-slide">
+            <img src="img/product-05-01.png">
             <span class="slider-name">el nombre de un producto</span>
-            <div class="filter"></div>
+            <a href="/#/product-item">
+              <div class="filter"></div>
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="img/product-01-01.png">
+            <span class="slider-name">el nombre de un producto</span>
+            <a href="/#/product-item">
+              <div class="filter"></div>
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="img/product-02-01.png">
+            <span class="slider-name">el nombre de un producto</span>
+            <a href="/#/product-item">
+              <div class="filter"></div>
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="img/product-03-01.png">
+            <span class="slider-name">el nombre de un producto</span>
+            <a href="/#/product-item">
+              <div class="filter"></div>
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="img/product-04-01.png">
+            <span class="slider-name">el nombre de un producto</span>
+            <a href="/#/product-item">
+              <div class="filter"></div>
+            </a>
+          </div>
+
+          <div class="swiper-slide">
+            <img src="img/product-05-01.png">
+            <span class="slider-name">el nombre de un producto</span>
+            <a href="/#/product-item">
+              <div class="filter"></div>
+            </a>
           </div>
 
         </div>

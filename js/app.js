@@ -6,11 +6,11 @@
     	'jacomeSite.directives',
 			'ngMap'
   	]);
-	// 
+
 	// app.run(function($rootScope, $anchorScroll){
 	// 	//Scroll hacia arriba cada vez que cambie de ruta
 	// 	$rootScope.$on("$routeChangeSuccess", function (event, currentRoute, previousRoute) {
-	// 	    window.scrollTo(0, 0);
+	// 		window.scrollTo(0, 0);
 	// 	});
 	// })
 
@@ -25,10 +25,10 @@
 				templateUrl: 'views/productos-view.html',
 				controller: 'homeController'
 			})
-			.when('/productos/:categoria/:subcategoria', {
+			.when('/productos/:categoria', {
 				templateUrl: 'views/productos-view.html',
 			})
-			.when('/productos/:categoria', {
+			.when('/productos/:categoria/:subcategoria', {
 				templateUrl: 'views/productos-view.html',
 			})
 			.when('/equipos', {

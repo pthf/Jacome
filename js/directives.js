@@ -8,9 +8,13 @@
 				restrict: 'E',
 				templateUrl: './partials/header.html',
 				controller: function($document){
+
+					// $('.menu-icon').click(function(){
+					//  $('.logo-header svg').toggleClass('active-logo hidden-logo');
+					// });
+
 					//Funcion menu en moviles, ocultar y mostrar el menu
 					$('.menu-icon').click(function(){
-					 $('.logo-header').addClass('option-item');
 					 $('.menu-options-mobile').toggleClass('active-menu hidden-menu');
 					 $('li.option-item').toggleClass('show-item hidden-item');
 					 $('.menu-icon').toggleClass('close-icon open-icon');
@@ -78,7 +82,7 @@
 
 				//Rotar el icono del triangulo
 					$('.category-name').click(function(e){
-						$(e.currentTarget).parent().find('li.sub-item').toggleClass('show-category hide-category')
+						$(e.currentTarget).parent().find('a li.sub-item').toggleClass('show-category hide-category')
 						$(e.currentTarget).parent().find('span.icon-category').toggleClass('downside-icon upside-icon')
 					});
 				}
@@ -93,11 +97,11 @@
 				controller: function($document){
 
 					$('.equipo-item').click(function(){
-					 $('.equipos-modal').removeClass('hide-modal');
-					 $('.equipos-modal').addClass('show-modal');
-					 $('html, body').animate({
-							 scrollTop: $(".quien-top").offset().top
-					 }, 300);
+						 $('.equipos-modal').removeClass('hide-modal');
+						 $('.equipos-modal').addClass('show-modal');
+						 $('html, body').animate({
+								 scrollTop: $(".quien-top").offset().top
+						 }, 300);
 					});
 
 					//Cerrar el modal de la seccion de equipos
